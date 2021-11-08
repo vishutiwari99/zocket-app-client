@@ -9,6 +9,7 @@ module.exports = {
           light: "#E3EEFD",
           DEFAULT: "#5c6ac4",
           dark: "#0F6EFF",
+          indigoDark: "#093E8E",
         },
         myorange: {
           dark: "#FF9449",

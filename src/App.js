@@ -3,6 +3,8 @@ import "./App.css";
 import Header from "./components/header/Header";
 import HeroSection from "./components/header/heroSection/HeroSection";
 import About from "./components/about/About";
+import Services from "./components/services/Services";
+import Steps from "./components/steps/Steps";
 
 function App() {
   return (
@@ -11,11 +13,9 @@ function App() {
         <Header />
         <HeroSection />
         <About />
+        <Services />
+        <Steps />
       </div>
-      {/* <div className="ml-24">
-      </div>
-      <div className="App max-w-screen-lg mx-auto ">
-      </div> */}
     </>
   );
 }

@@ -2,9 +2,9 @@ import React from "react";
 
 const Steps = () => {
   return (
-    <div className="flex flex-col items-start  bg-myblue-indigoDark rounded-3xl  max-w-5xl mx-auto">
+    <div className="flex flex-col items-start mb-2 pl-1 bg-myblue-indigoDark rounded-3xl  max-w-5xl mx-auto">
       <div className="p-10 flex flex-col items-end  ml-4 ">
-        <h1 className="text-5xl text-white font-semibold">
+        <h1 className="text-5xl text-white font-semibold z-20">
           3 easy steps to run the ad.
         </h1>
         <div>
@@ -62,8 +62,12 @@ const Steps = () => {
             </div>
           </div>
         </div>
-        <div className=" absolute -right-2 -bottom-2">
-          <img style={{ width: "35rem" }} src="/images/cellphone1.png" alt="" />
+        <div className=" absolute right-0 bg-myblue-indigoDark  bottom-0 rounded-br-3xl">
+          <img
+            className="rounded-br-3xl "
+            src="/images/cellphone2.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
